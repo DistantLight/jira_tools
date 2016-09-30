@@ -1,0 +1,4 @@
+{
+    "server" : "http://hostname:8080/jira",
+    "verify" : false
+}
