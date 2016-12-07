@@ -55,7 +55,7 @@ def get_user_password(user_arg, pass_arg, json_config):
         else:
             if 'password' in json_config:
                 password = json_config['password']
-                print '[ WARNING ] Received password from JSON file\nThis is a very bad idea.'
+                print '[ WARNING ] Received password from JSON file. This is a very bad idea.'
             else:
                 password = getpass().strip()
     else:
